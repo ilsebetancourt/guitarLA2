@@ -8,7 +8,7 @@ export default function Guitarra(props) {
     return (
         <div className="col-md-6 col-lg-4 my-4 row align-items-center">
             <div className="col-4">
-                <img className="img-fluid" src={`../public/img/${image}.jpg`} />
+                <img className="img-fluid" src={`/img/${image}.jpg`} />
             </div>
             <div className="col-8">
                 <h1 className="text-black fs-4 fw-bold text-uppercase">{guitarra.name}</h1>
